@@ -1,0 +1,20 @@
+package ex01;
+
+public class StmtBreak_와일 {
+
+	public static void main(String[] args) {
+		// while 문은 무한루프 중이다.
+		// 그런데 i 값이 100 이 되면 빠져나오도록 만들어
+		
+		int i = 1;
+		while (i<=100) {
+			System.out.println(i);
+			if (i==100) {
+				break;
+			}
+			i++;
+		}
+
+	}
+
+}
